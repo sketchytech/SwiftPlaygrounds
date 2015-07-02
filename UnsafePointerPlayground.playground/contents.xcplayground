@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Page_1_Basics'/>
+        <page name='Page_2_Memory_Address'/>
+        <page name='Page_3_Two_Pointers'/>
+        <page name='Page_4_Copying'/>
+        <page name='Page_3_Advanced'/>
+    </pages>
+</playground>
