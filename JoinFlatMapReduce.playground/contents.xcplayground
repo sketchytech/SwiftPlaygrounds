@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Page_1'/>
+        <page name='Page_2_join'/>
+        <page name='Page_3_reduce'/>
+        <page name='Page_4_nested_arrays'/>
+        <page name='Page_5_flatMap'/>
+        <page name='Page_6_Conclusions'/>
+        <page name='Page_7_Afterword'/>
+    </pages>
+</playground>
