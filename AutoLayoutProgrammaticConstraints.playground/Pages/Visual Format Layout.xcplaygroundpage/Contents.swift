@@ -56,6 +56,6 @@ class ViewController: UIViewController {
 let aVC = ViewController()
 
 XCPShowView("vflView", view: aVC.view)
-//: **Note**: To see the view you must have the timeline file open. If it is not displayed, tap on the two interlinking circles item along the top right row of buttons. To the right you should see the view. And if you have problems loading then close the pane and open again.
+//: **Note**: To see the view you must have the timeline file open. If it is not displayed, tap on the two interlinking circles icon along the top right row of buttons. To the right you should see the view. And if you have problems loading then close the pane and open again.
 
 //: [Next](@next)

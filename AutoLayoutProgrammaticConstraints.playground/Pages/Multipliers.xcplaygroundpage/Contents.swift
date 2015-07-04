@@ -2,7 +2,7 @@
 
 /*:
 # A note on Multipliers
-This is a brief not to state that Visual Format Layout (VFL) does not support multipliers, however if we wish, for example, to make our view half the width of screen in the first NSLayoutConstraint example we'd replace the code for the constant with the following:
+This is a brief note to state that Visual Format Layout (VFL) does not support multipliers, however if we wish, for example, to make our view half the width of the screen in the first NSLayoutConstraint example we'd replace the code for the first constraint with the following:
 
     let const1 = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.TrailingMargin, relatedBy: NSLayoutRelation.Equal, toItem: subView, attribute: NSLayoutAttribute.TrailingMargin, multiplier: 2, constant: 0)
 
@@ -16,4 +16,3 @@ Would be replaced with:
 
 This isn't necessarily a reason to abandon VFL, because remember you can mix and match constraint creation. The only thing to be aware of is that you cannot use the anchor approach pre-iOS 9 and you can't use .active or .activateConstraints() pre-iOS 8.
 */
-//: [Next](@next)

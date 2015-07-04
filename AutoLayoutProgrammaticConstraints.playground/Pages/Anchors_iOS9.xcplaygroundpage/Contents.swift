@@ -4,7 +4,7 @@ import UIKit
 import XCPlayground
 /*:
 # Anchors iOS 9
-Using anchors to create constraints is new to iOS 9. The following code does not currently render correctly in the view. However, if used in an ordinary app it will it will function correctly. (I expect playground support needs to properly catch up with iOS 9).
+Using anchors to create constraints is new to iOS 9. The following code does not currently render correctly in the view. However, if used in an ordinary app it will function correctly. (Playground support will no doubt catch up soon.)
 */
 if #available(iOS 9,*) {
 class ViewController: UIViewController {
@@ -46,6 +46,6 @@ class ViewController: UIViewController {
 let aVC = ViewController()
 XCPShowView("myAnchorView", view: aVC.view)
 }
-//: **Note**: To see the view you must have the timeline file open. If it is not displayed, tap on the two interlinking circles item along the top right row of buttons. To the right you should see the view. And if you have problems loading then close the pane and open again.
+//: **Note**: To see the view you must have the timeline file open. If it is not displayed, tap on the two interlinking circles icon along the top right row of buttons. To the right you should see the view. And if you have problems loading then close the pane and open again.
 
 //: [Next](@next)
