@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Storyboard Layout'/>
+        <page name='NSLayoutConstraint'/>
+        <page name='Visual Format Layout'/>
+        <page name='Anchors_iOS9'/>
+        <page name='Multipliers'/>
+    </pages>
+</playground>
