@@ -32,6 +32,11 @@ Similarly an identifier could be added like so:
 The constraint is then added to an "ancestor" of the view like so:
     
     self.view.addConstraint(constraint)
+    
+Or since iOS 8 using one of these two approaches:
+
+    NSLayoutConstraint.activateConstraint(constraint)
+    constraint.active = true
 
 If you repeat the creation of constraints in all three remaining directions, setting each constant to zero, then you will have all the information that we need to place into our code. And your view will look like this in the storyboard:
 
